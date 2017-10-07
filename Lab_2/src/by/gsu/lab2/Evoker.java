@@ -13,6 +13,23 @@ public class Evoker extends Character {
 		super(name, health, strength, agility);
 		this.magicType = magicType;
 	}
+	@Override
+	public void Attack(float ttlDmg){
+		super.Attack(ttlDmg);
+		switch (magicType.toLowerCase()){
+		case "pyre":
+			ttlDmg*=3.1;
+			break;
+		case "lightning":
+			ttlDmg*=3.2;
+			break;
+		case "elemental":
+			ttlDmg*=3.25;
+			break;
+		default:
+			break;
+		}
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

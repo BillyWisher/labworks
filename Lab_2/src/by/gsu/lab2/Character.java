@@ -51,8 +51,8 @@ public class Character {
 		this.agility = agility;
 	}
 
-	public static void Attack(String[] args) {
-
+	public void Attack(float ttlDmg) {
+		ttlDmg=strength*agility;
 	}
 
 

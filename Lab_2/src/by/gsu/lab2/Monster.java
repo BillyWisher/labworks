@@ -39,5 +39,10 @@ public class Monster extends Character {
 		this.clawsLength = clawsLength;
 		this.pawsQuantity = pawsQuantity;
 	}
+	@Override
+	public void Attack(float ttlDmg){
+		super.Attack(ttlDmg);
+		ttlDmg=ttlDmg*teethLength*clawsLength*pawsQuantity;
+	}
 
 }
