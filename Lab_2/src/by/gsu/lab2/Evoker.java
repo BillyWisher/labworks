@@ -14,25 +14,27 @@ public class Evoker extends Character {
 		this.magicType = magicType;
 	}
 	@Override
-	public void Attack(float ttlDmg){
+	public float Attack(float ttlDmg){
 		super.Attack(ttlDmg);
 		switch (magicType.toLowerCase()){
 		case "pyre":
-			ttlDmg*=3.1;
+			ttlDmg=getStrength()*getAgility()*3.1f;
 			break;
 		case "lightning":
-			ttlDmg*=3.2;
+			ttlDmg=getStrength()*getAgility()*3.2f;
 			break;
 		case "elemental":
-			ttlDmg*=3.25;
+			ttlDmg=getStrength()*getAgility()*3.25f;
 			break;
 		default:
 			break;
 		}
+		return ttlDmg;
 	}
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	@Override
+	public String toString() {
+		return "Evoker [name=" + getName() + ", health=" + getHealth()
+				+ ", strength=" + getStrength() + ", agility=" + getAgility() + ", magic type=" + magicType;
+	}
 
 	}
-
-}

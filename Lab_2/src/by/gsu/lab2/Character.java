@@ -13,10 +13,21 @@ public class Character {
 		this.strength = strength;
 		this.agility = agility;
 	}
+	
+	public Character() {
+		super();
+	}
+	
+	public Character(String name, int health, int strength) {
+		super();
+		this.name = name;
+		this.health = health;
+		this.strength = strength;
+	}
+
 	@Override
 	public String toString() {
-		return "Character [name=" + name + ", health=" + health + ", strength=" + strength + ", agility=" + agility
-				+ "]";
+		return "Character [name=" + name + ", health=" + health + ", strength=" + strength + ", agility=" + agility;
 	}
 
 	public String getName() {
@@ -51,8 +62,9 @@ public class Character {
 		this.agility = agility;
 	}
 
-	public void Attack(float ttlDmg) {
+	public float Attack(float ttlDmg) {
 		ttlDmg=strength*agility;
+		return ttlDmg;
 	}
 
 

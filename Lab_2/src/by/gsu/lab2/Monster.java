@@ -1,14 +1,14 @@
 package by.gsu.lab2;
 
 public class Monster extends Character {
-	private int teethLength;
-	private int clawsLength;
+	private float teethLength;
+	private float clawsLength;
 	private int pawsQuantity;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	}
 
-	public int getTeethLength() {
+	public float getTeethLength() {
 		return teethLength;
 	}
 
@@ -16,7 +16,7 @@ public class Monster extends Character {
 		this.teethLength = teethLength;
 	}
 
-	public int getClawsLength() {
+	public float getClawsLength() {
 		return clawsLength;
 	}
 
@@ -32,17 +32,26 @@ public class Monster extends Character {
 		this.pawsQuantity = pawsQuantity;
 	}
 
-	public Monster(String name, int health, int strength, int agility, int teethLength, int clawsLength,
+	public Monster(String name, int health, int strength, int agility, float teethLength, float clawsLength,
 			int pawsQuantity) {
 		super(name, health, strength, agility);
 		this.teethLength = teethLength;
 		this.clawsLength = clawsLength;
 		this.pawsQuantity = pawsQuantity;
 	}
+	
 	@Override
-	public void Attack(float ttlDmg){
+	public String toString() {
+		return "Monster [name=" + getName() + ", health=" + getHealth() + ", strength=" + getStrength()
+				+ ", agility=" + getAgility() + ", teeth length=" + teethLength + ", claws length=" 
+				+ clawsLength + ", paws quantity=" + pawsQuantity;
+	}
+
+	@Override
+	public float Attack(float ttlDmg){
 		super.Attack(ttlDmg);
-		ttlDmg=ttlDmg*teethLength*clawsLength*pawsQuantity;
+		ttlDmg=getStrength()*getAgility()*teethLength*clawsLength*pawsQuantity;
+		return ttlDmg;
 	}
 
 }
