@@ -13,11 +13,11 @@ public class Character {
 		this.strength = strength;
 		this.agility = agility;
 	}
-	
+
 	public Character() {
 		super();
 	}
-	
+
 	public Character(String name, int health, int strength) {
 		super();
 		this.name = name;
@@ -63,9 +63,8 @@ public class Character {
 	}
 
 	public float Attack(float ttlDmg) {
-		ttlDmg=strength*agility;
+		ttlDmg = strength * agility;
 		return ttlDmg;
 	}
-
 
 }

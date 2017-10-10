@@ -6,35 +6,48 @@ public class Evoker extends Character {
 	public String getMagicType() {
 		return magicType;
 	}
+
 	public void setMagicType(String magicType) {
 		this.magicType = magicType;
 	}
+
 	public Evoker(String name, int health, int strength, int agility, String magicType) {
 		super(name, health, strength, agility);
 		this.magicType = magicType;
 	}
+	
+	public Evoker(String name, int health, int strength, int agility) {
+		super(name, health, strength, agility);
+	}
+
+	public Evoker(String name, int health, int agility, String magicType) {
+		super(name, health, agility);
+		this.magicType = magicType;
+	}
+
 	@Override
-	public float Attack(float ttlDmg){
+	public float Attack(float ttlDmg) {
 		super.Attack(ttlDmg);
-		switch (magicType.toLowerCase()){
+		switch (magicType.toLowerCase()) {
 		case "pyre":
-			ttlDmg=getStrength()*getAgility()*3.1f;
+			ttlDmg = getStrength() * getAgility() * 3.1f;
 			break;
 		case "lightning":
-			ttlDmg=getStrength()*getAgility()*3.2f;
+			ttlDmg = getStrength() * getAgility() * 3.2f;
 			break;
 		case "elemental":
-			ttlDmg=getStrength()*getAgility()*3.25f;
+			ttlDmg = getStrength() * getAgility() * 3.25f;
 			break;
 		default:
 			break;
 		}
 		return ttlDmg;
 	}
+
 	@Override
 	public String toString() {
-		return "Evoker [name=" + getName() + ", health=" + getHealth()
-				+ ", strength=" + getStrength() + ", agility=" + getAgility() + ", magic type=" + magicType;
+		return "Evoker [name=" + getName() + ", health=" + getHealth() + ", strength=" + getStrength() + ", agility="
+				+ getAgility() + ", magic type=" + magicType;
 	}
 
-	}
+}
