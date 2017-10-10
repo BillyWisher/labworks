@@ -7,7 +7,7 @@ public class Runner {
 
 	public static void main(String[] args) {
 		Character[] characterList = {
-			new Character("Burd", 900, 15, 15),
+			new Character("Burd", 900, 15),
 			new Character("Spider", 450, 7, 21),
 			new Character("Wolf", 700, 16, 22),
 			new Character("Stranger", 1100, 24, 17),
@@ -20,7 +20,7 @@ public class Runner {
 			new Monster("Undying", 2800, 42, 19, 0.7f, 0.85f, 6)
 		};
 		float totalDamage = 0;
-		for(int i=1; i<characterList.length; i++){
+		for(int i=0; i<characterList.length; i++){
 			System.out.println(characterList[i] + ", damage=" + Float.toString(characterList[i].Attack(totalDamage)) + "]");
 		}
 	}
