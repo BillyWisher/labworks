@@ -5,8 +5,22 @@ public class Monster extends Character {
 	private float clawsLength;
 	private int pawsQuantity;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public Monster(String name, int health, int strength, int agility, float teethLength, float clawsLength,
+			int pawsQuantity) {
+		super(name, health, strength, agility);
+		this.teethLength = teethLength;
+		this.clawsLength = clawsLength;
+		this.pawsQuantity = pawsQuantity;
+	}
+
+	public Monster(String name, int health, int strength, int agility) {
+		super(name, health, strength, agility);
+	}
+
+	public Monster(String name, int health, int strength, int agility, float teethLength, float clawsLength) {
+		super(name, health, strength, agility);
+		this.teethLength = teethLength;
+		this.clawsLength = clawsLength;
 	}
 
 	public float getTeethLength() {
@@ -31,24 +45,6 @@ public class Monster extends Character {
 
 	public void setPawsQuantity(int pawsQuantity) {
 		this.pawsQuantity = pawsQuantity;
-	}
-
-	public Monster(String name, int health, int strength, int agility, float teethLength, float clawsLength,
-			int pawsQuantity) {
-		super(name, health, strength, agility);
-		this.teethLength = teethLength;
-		this.clawsLength = clawsLength;
-		this.pawsQuantity = pawsQuantity;
-	}
-	
-	public Monster(String name, int health, int strength, int agility) {
-		super(name, health, strength, agility);
-	}
-
-	public Monster(String name, int health, int strength, int agility, float teethLength, float clawsLength) {
-		super(name, health, strength, agility);
-		this.teethLength = teethLength;
-		this.clawsLength = clawsLength;
 	}
 
 	@Override

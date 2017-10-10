@@ -7,7 +7,7 @@ public class Runner {
 
 	public static void main(String[] args) {
 		Character[] characterList = {
-			new Character("Burd", 900, 15),
+			new Character("Burd", 900, 15, 15),
 			new Character("Spider", 450, 7, 21),
 			new Character("Wolf", 700, 16, 22),
 			new Character("Stranger", 1100, 24, 17),

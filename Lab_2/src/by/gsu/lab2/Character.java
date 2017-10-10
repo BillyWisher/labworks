@@ -25,11 +25,6 @@ public class Character {
 		this.strength = strength;
 	}
 
-	@Override
-	public String toString() {
-		return "Character [name=" + name + ", health=" + health + ", strength=" + strength + ", agility=" + agility;
-	}
-
 	public String getName() {
 		return name;
 	}
@@ -60,6 +55,11 @@ public class Character {
 
 	public void setAgility(int agility) {
 		this.agility = agility;
+	}
+
+	@Override
+	public String toString() {
+		return "Character [name=" + name + ", health=" + health + ", strength=" + strength + ", agility=" + agility;
 	}
 
 	public float Attack(float ttlDmg) {

@@ -12,7 +12,6 @@ public class Warrior extends Character {
 
 	public Warrior(String name, int health, int strength) {
 		super(name, health, strength);
-		// TODO Auto-generated constructor stub
 	}
 	
 	public Warrior(String name, int health, int strength, int agility, String weaponType) {
