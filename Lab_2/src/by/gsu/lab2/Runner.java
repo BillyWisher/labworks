@@ -4,7 +4,6 @@ import by.gsu.lab2.Evoker;
 import by.gsu.lab2.Monster;
 import by.gsu.lab2.Warrior;
 public class Runner {
-
 	public static void main(String[] args) {
 		Character[] characterList = {
 			new Character("Burd", 900, 15, 15),
@@ -24,5 +23,4 @@ public class Runner {
 			System.out.println(characterList[i] + ", damage=" + Float.toString(characterList[i].Attack(totalDamage)) + "]");
 		}
 	}
-
 }

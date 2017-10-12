@@ -48,17 +48,16 @@ public class Monster extends Character {
 	}
 
 	@Override
-	public String toString() {
-		return "Monster [name=" + getName() + ", health=" + getHealth() + ", strength=" + getStrength() + ", agility="
-				+ getAgility() + ", teeth length=" + teethLength + ", claws length=" + clawsLength + ", paws quantity="
-				+ pawsQuantity;
-	}
-
-	@Override
 	public float Attack(float ttlDmg) {
 		super.Attack(ttlDmg);
 		ttlDmg = getStrength() * getAgility() * teethLength * clawsLength * pawsQuantity;
 		return ttlDmg;
+	}
+
+	@Override
+	public String toString() {
+		return "Monster [" + super.toString() + "teethLength=" + teethLength + ", clawsLength=" + clawsLength
+				+ ", pawsQuantity=" + pawsQuantity;
 	}
 
 }

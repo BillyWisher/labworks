@@ -46,8 +46,6 @@ public class Evoker extends Character {
 
 	@Override
 	public String toString() {
-		return "Evoker [name=" + getName() + ", health=" + getHealth() + ", strength=" + getStrength() + ", agility="
-				+ getAgility() + ", magic type=" + magicType;
+		return "Evoker [" + super.toString() + ", magicType=" + magicType;
 	}
-
 }

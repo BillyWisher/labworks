@@ -34,13 +34,14 @@ public class Warrior extends Character {
 	public void setShieldShape(String shieldShape) {
 		this.shieldShape = shieldShape;
 	}
-
+/*
 	@Override
 	public String toString() {
 		return "Warrior [name=" + getName() + ", health=" + getHealth() + ", strength=" + getStrength() + ", agility()="
 				+ getAgility() + ", weapon type=" + weaponType + ", shield shape=" + shieldShape;
 	}
-
+*/
+	
 	@Override
 	public float Attack(float ttlDmg) {
 		super.Attack(ttlDmg);
@@ -58,5 +59,10 @@ public class Warrior extends Character {
 			break;
 		}
 		return ttlDmg;
+	}
+
+	@Override
+	public String toString() {
+		return "Warrior [" + super.toString() + "weaponType=" + weaponType + ", shieldShape=" + shieldShape;
 	}
 }
