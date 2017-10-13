@@ -11,7 +11,7 @@ public class Runner {
 			new Character("Wolf", 700, 16, 22),
 			new Character("Stranger", 1100, 24, 17),
 			new Character("Wanderer", 1050, 20, 19),
-			new Warrior("The Greatest One", 2400, 40, 20, "doublehanded", "stout"),
+			new Warrior("The Greatest One", 2400, 40, 20, "doublehanded", "oval"),
 			new Warrior("Earth Shaker", 2100, 35, 23, "enchanted", "no shield"),
 			new Evoker("Jakiro", 1750, 31, 19, "pyre"),
 			new Evoker("Zeus", 1700, 30, 20, "lightning"),
