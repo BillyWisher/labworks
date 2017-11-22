@@ -18,7 +18,7 @@ public class Explorer implements Serializable {
 			throw new ExplorerException("Invalid category, it should be in range from 1 to 9", category);
 		}
 		if (position.length()<=0){
-			 throw new ExplorerException("Explorer position should consist of at least 2 symbols, register doesn't matter", position);
+			 throw new ExplorerException("Explorer position should consist of at least 2 symbols, existing positions are junior, senior, head; register doesn't matter", position);
 		}
 		this.name = name;
 		this.category = category;
@@ -65,7 +65,7 @@ public class Explorer implements Serializable {
 			salary = BASE_VALUE * 2.5 * this.category;
 			break;
 		default:
-			throw new IllegalArgumentException("Invalid employee position: " + position);
+			break;
 		}
 		return salary;
 	}
