@@ -12,7 +12,7 @@ public class Runner {
 
 	public static void main(final String[] args) throws IOException, ClassNotFoundException {
 		final Scanner scan = new Scanner(System.in);
-		System.out.println("Enter information about a cone.");
+		System.out.println("Enter information about explorer.");
 		System.out.print("Name: ");
 		final String name = scan.nextLine();
 		System.out.print("Position: ");
