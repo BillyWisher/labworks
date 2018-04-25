@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    background: #bfbfbf;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.title{
+    color: #333;
+    font: 25px arial, sans-serif;
+    float: left;
+}
+
+.authentication{
+	color:#333;
+    text-align: right;
+    font: 14px arial,sans-serif;
+}
