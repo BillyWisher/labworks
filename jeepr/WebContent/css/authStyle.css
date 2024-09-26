@@ -1,0 +1,47 @@
+.form-class{
+    margin-top:50px;
+  	margin-left:auto;
+  	margin-right:auto;
+	width:270px;
+}
+
+.form-header{
+    padding-bottom: 30px;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.rememberMe{
+	color:#333;
+}
+.qu{
+	color:#333;
+    font: 10px arial, sans-serif;
+    width: 100%;
+    padding-top: 15px;
+    margin: auto;
+}
+
+
+.input{
+	width:270px;
+    padding:15px 25px;
+    font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	background: #f5f5f5;
+	border:none;
+	border-radius: 5px;
+	color: #333;
+	font-size: 14px;
+	margin-top:15px;
+}
+
+.info-block{
+	color:#333;
+    width: 50%;
+    margin: 20px auto auto;
+    border-top: 1px solid #BDBDBD;
+    text-align: center;
+    padding: 5px;
+    font: 15px arial,sans-serif;
+}

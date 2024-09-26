@@ -1,0 +1,704 @@
+BiosCharacteristics: System.UInt16[]
+BIOSVersion: ACRSYS - 1
+BIOSVersion: V1.32
+BIOSVersion: INSYDE Corp. - 10000001
+Caption: V1.32
+Description: V1.32
+EmbeddedControllerMajorVersion: 1
+EmbeddedControllerMinorVersion: 32
+Manufacturer: Insyde Corp.
+Name: V1.32
+PrimaryBIOS: True
+ReleaseDate: 20150915000000.000000+000
+SerialNumber: NXMLZEL0354490EC223400
+SMBIOSBIOSVersion: V1.32
+SMBIOSMajorVersion: 2
+SMBIOSMinorVersion: 8
+SMBIOSPresent: True
+SoftwareElementID: V1.32
+SoftwareElementState: 3
+Status: OK
+SystemBiosMajorVersion: 1
+SystemBiosMinorVersion: 32
+TargetOperatingSystem: 0
+Version: ACRSYS - 1
+
+****************************************
+
+Availability: 8
+Caption: Универсальный монитор PnP
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_DesktopMonitor
+Description: Универсальный монитор PnP
+DeviceID: DesktopMonitor1
+MonitorManufacturer: (Стандартные мониторы)
+MonitorType: Универсальный монитор PnP
+Name: Универсальный монитор PnP
+PixelsPerXLogicalInch: 96
+PixelsPerYLogicalInch: 96
+PNPDeviceID: DISPLAY\CMN15BE\4&97B67C5&0&UID265988
+Status: OK
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: NOTEPAD
+
+****************************************
+
+Availability: 8
+Caption: Монитор по умолчанию
+CreationClassName: Win32_DesktopMonitor
+Description: Монитор по умолчанию
+DeviceID: DesktopMonitor2
+MonitorType: Монитор по умолчанию
+Name: Монитор по умолчанию
+PixelsPerXLogicalInch: 96
+PixelsPerYLogicalInch: 96
+Status: OK
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: NOTEPAD
+
+****************************************
+
+BytesPerSector: 512
+Capabilities: System.UInt16[]
+CapabilityDescriptions: Random Access
+CapabilityDescriptions: Supports Writing
+CapabilityDescriptions: SMART Notification
+Caption: WDC WD5000LPCX-24C6HT0
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_DiskDrive
+Description: Дисковый накопитель
+DeviceID: \\.\PHYSICALDRIVE0
+FirmwareRevision: 02.01A02
+Index: 0
+InterfaceType: IDE
+Manufacturer: (Стандартные дисковые накопители)
+MediaLoaded: True
+MediaType: Fixed hard disk media
+Model: WDC WD5000LPCX-24C6HT0
+Name: \\.\PHYSICALDRIVE0
+Partitions: 8
+PNPDeviceID: SCSI\DISK&VEN_WDC&PROD_WD5000LPCX-24C6H\4&14C44C70&0&000000
+SCSIBus: 0
+SCSILogicalUnit: 0
+SCSIPort: 0
+SCSITargetId: 0
+SectorsPerTrack: 63
+SerialNumber:      WD-WX61AB4H2AZ5
+Size: 500105249280
+Status: OK
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: NOTEPAD
+TotalCylinders: 60801
+TotalHeads: 255
+TotalSectors: 976768065
+TotalTracks: 15504255
+TracksPerCylinder: 255
+
+****************************************
+
+Caption: Расширенная клавиатура (101 или 102 клавиши)
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_Keyboard
+Description: Стандартная клавиатура PS/2
+DeviceID: ACPI\10250759\4&33238C80&0
+Layout: 00000409
+Name: Расширенная клавиатура (101 или 102 клавиши)
+NumberOfFunctionKeys: 12
+PNPDeviceID: ACPI\10250759\4&33238C80&0
+PowerManagementSupported: False
+Status: OK
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: NOTEPAD
+
+****************************************
+
+Caption: HID-совместимая мышь
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_PointingDevice
+Description: HID-совместимая мышь
+DeviceID: HID\SYN1B7E&COL01\5&248EAE66&0&0000
+DeviceInterface: 162
+HardwareType: HID-совместимая мышь
+InfFileName: msmouse.inf
+InfSection: HID_Mouse_Inst.NT
+Manufacturer: Microsoft
+Name: HID-совместимая мышь
+NumberOfButtons: 0
+PNPDeviceID: HID\SYN1B7E&COL01\5&248EAE66&0&0000
+PointingType: 2
+PowerManagementSupported: False
+Status: OK
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: NOTEPAD
+
+****************************************
+
+Caption: Основная плата
+ConfigOptions: String1 for Type12 Equipment Manufacturer
+ConfigOptions: String2 for Type12 Equipment Manufacturer
+ConfigOptions: String3 for Type12 Equipment Manufacturer
+ConfigOptions: String4 for Type12 Equipment Manufacturer
+ConfigOptions: String5 for Type12 Equipment Manufacturer
+ConfigOptions: String6 for Type12 Equipment Manufacturer
+ConfigOptions: String7 for Type12 Equipment Manufacturer
+CreationClassName: Win32_BaseBoard
+Description: Основная плата
+HostingBoard: True
+HotSwappable: False
+Manufacturer: Acer
+Name: Основная плата
+PoweredOn: True
+Product: EA50_HB   
+Removable: False
+Replaceable: True
+RequiresDaughterBoard: False
+SerialNumber: NBV9P110014498F7273400
+Status: OK
+Tag: Base Board
+Version: V1.32
+
+****************************************
+
+Availability: 3
+Caption: Материнская плата
+CreationClassName: Win32_MotherBoardDevice
+Description: Материнская плата
+DeviceID: Motherboard
+Name: Материнская плата
+PrimaryBusType: PCI
+SecondaryBusType: ISA
+Status: OK
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: NOTEPAD
+
+****************************************
+
+Caption: [00000000] Microsoft Kernel Debug Network Adapter
+Description: Microsoft Kernel Debug Network Adapter
+DHCPEnabled: True
+Index: 0
+InterfaceIndex: 17
+IPEnabled: False
+ServiceName: kdnic
+SettingID: {8718928D-CBEB-45EA-A621-800A9249001D}
+
+****************************************
+
+Caption: [00000001] Anchorfree HSS VPN Adapter
+Description: Anchorfree HSS VPN Adapter
+DHCPEnabled: True
+Index: 1
+InterfaceIndex: 7
+IPEnabled: False
+ServiceName: taphss6
+SettingID: {269F1F0C-75C9-49A1-8379-4011BAE65249}
+
+****************************************
+
+Caption: [00000002] VirtualBox Host-Only Ethernet Adapter
+Description: VirtualBox Host-Only Ethernet Adapter
+DHCPEnabled: False
+Index: 2
+InterfaceIndex: 25
+IPEnabled: False
+ServiceName: VBoxNetAdp
+SettingID: {C5925701-980B-4C02-BE4B-14ED6D1B35F3}
+
+****************************************
+
+Caption: [00000003] TAP-VyprVPN Adapter V9
+Description: TAP-VyprVPN Adapter V9
+DHCPEnabled: True
+Index: 3
+InterfaceIndex: 11
+IPEnabled: False
+ServiceName: tapvyprvpn
+SettingID: {568BFC8A-4753-4FFF-A5B3-2FACF0BAE871}
+
+****************************************
+
+Caption: [00000004] TAP-Windows Adapter V9
+Description: TAP-Windows Adapter V9
+DHCPEnabled: True
+Index: 4
+InterfaceIndex: 2
+IPEnabled: False
+MACAddress: 00:FF:00:A8:06:40
+ServiceName: tap0901
+SettingID: {00A80640-2F8C-4699-BCF9-A706D4CC9212}
+
+****************************************
+
+Caption: [00000005] Qualcomm Atheros AR956x Wireless Network Adapter
+DatabasePath: %SystemRoot%\System32\drivers\etc
+DefaultIPGateway: 192.168.43.1
+DefaultTTL: 65
+Description: Qualcomm Atheros AR956x Wireless Network Adapter #2
+DHCPEnabled: True
+DHCPLeaseExpires: 20170607120303.000000+180
+DHCPLeaseObtained: 20170607110303.000000+180
+DHCPServer: 192.168.43.1
+DNSEnabledForWINSResolution: False
+DNSHostName: NotePad
+DNSServerSearchOrder: 192.168.43.1
+DomainDNSRegistrationEnabled: False
+FullDNSRegistrationEnabled: True
+GatewayCostMetric: System.UInt16[]
+Index: 5
+InterfaceIndex: 9
+IPAddress: 192.168.43.179
+IPConnectionMetric: 55
+IPEnabled: True
+IPFilterSecurityEnabled: False
+IPSubnet: 255.255.255.0
+MACAddress: 74:29:AF:7C:02:D1
+ServiceName: athr
+SettingID: {303B8767-ECE3-43F0-8F09-CBFC98FF78EA}
+TcpipNetbiosOptions: 0
+WINSEnableLMHostsLookup: True
+WINSScopeID: 
+
+****************************************
+
+Caption: [00000006] Realtek PCIe GBE Family Controller
+Description: Realtek PCIe GBE Family Controller
+DHCPEnabled: True
+Index: 6
+InterfaceIndex: 18
+IPEnabled: False
+ServiceName: rt640x64
+SettingID: {94831788-88C5-453B-8CB7-D971CEF6937D}
+
+****************************************
+
+Caption: [00000007] Microsoft Wi-Fi Direct Virtual Adapter
+Description: Microsoft Wi-Fi Direct Virtual Adapter
+DHCPEnabled: True
+Index: 7
+InterfaceIndex: 23
+IPEnabled: False
+ServiceName: vwifimp
+SettingID: {B1FEB7DA-86BC-491D-B289-6E6F9B5421EE}
+
+****************************************
+
+Caption: [00000008] Microsoft Wi-Fi Direct Virtual Adapter
+Description: Microsoft Wi-Fi Direct Virtual Adapter
+DHCPEnabled: True
+Index: 8
+InterfaceIndex: 19
+IPEnabled: False
+MACAddress: 16:29:AF:7C:02:D1
+ServiceName: vwifimp
+SettingID: {979CC0B5-1BC8-45BE-97D0-2D17280D24EA}
+
+****************************************
+
+Caption: [00000009] WAN Miniport (SSTP)
+Description: WAN Miniport (SSTP)
+DHCPEnabled: False
+Index: 9
+InterfaceIndex: 16
+IPEnabled: False
+ServiceName: RasSstp
+SettingID: {6E85566D-0292-4FA0-BDE3-8A16F9C4867D}
+
+****************************************
+
+Caption: [00000010] WAN Miniport (IKEv2)
+Description: WAN Miniport (IKEv2)
+DHCPEnabled: False
+Index: 10
+InterfaceIndex: 24
+IPEnabled: False
+ServiceName: RasAgileVpn
+SettingID: {C2ECEA74-960E-4426-9F51-E213DBE6C4A5}
+
+****************************************
+
+Caption: [00000011] WAN Miniport (L2TP)
+Description: WAN Miniport (L2TP)
+DHCPEnabled: False
+Index: 11
+InterfaceIndex: 3
+IPEnabled: False
+ServiceName: Rasl2tp
+SettingID: {0724254C-3260-4526-963A-EA4DDB1379D2}
+
+****************************************
+
+Caption: [00000012] WAN Miniport (PPTP)
+Description: WAN Miniport (PPTP)
+DHCPEnabled: False
+Index: 12
+InterfaceIndex: 28
+IPEnabled: False
+ServiceName: PptpMiniport
+SettingID: {FA929B20-D194-4A00-93AE-C99CA24F7401}
+
+****************************************
+
+Caption: [00000013] WAN Miniport (PPPOE)
+Description: WAN Miniport (PPPOE)
+DHCPEnabled: False
+Index: 13
+InterfaceIndex: 22
+IPEnabled: False
+ServiceName: RasPppoe
+SettingID: {ABE4B11F-67C4-409B-AB4A-4E7E7EEDC1A1}
+
+****************************************
+
+Caption: [00000014] WAN Miniport (IP)
+Description: WAN Miniport (IP)
+DHCPEnabled: False
+Index: 14
+InterfaceIndex: 8
+IPEnabled: False
+MACAddress: 98:C3:20:52:41:53
+ServiceName: NdisWan
+SettingID: {2DD844BB-FA91-44C2-A267-BF1406B1D694}
+
+****************************************
+
+Caption: [00000015] WAN Miniport (IPv6)
+Description: WAN Miniport (IPv6)
+DHCPEnabled: False
+Index: 15
+InterfaceIndex: 5
+IPEnabled: False
+MACAddress: A6:28:20:52:41:53
+ServiceName: NdisWan
+SettingID: {1D9297FE-1F0E-4C74-BFF2-B6C2D18176E1}
+
+****************************************
+
+Caption: [00000016] WAN Miniport (Network Monitor)
+Description: WAN Miniport (Network Monitor)
+DHCPEnabled: False
+Index: 16
+InterfaceIndex: 13
+IPEnabled: False
+MACAddress: A2:3E:20:52:41:53
+ServiceName: NdisWan
+SettingID: {5D253E2A-F05C-4A65-9FFC-EFFA96EB39A7}
+
+****************************************
+
+Caption: [00000017] Bluetooth Device (Personal Area Network)
+Description: Bluetooth Device (Personal Area Network)
+DHCPEnabled: True
+Index: 17
+InterfaceIndex: 20
+IPEnabled: False
+ServiceName: BthPan
+SettingID: {9D66DB5B-FD62-442F-96CC-DAD71D4852CF}
+
+****************************************
+
+Caption: [00000018] Bluetooth Device (RFCOMM Protocol TDI)
+Description: Bluetooth Device (RFCOMM Protocol TDI)
+DHCPEnabled: False
+Index: 18
+InterfaceIndex: 26
+IPEnabled: False
+ServiceName: RFCOMM
+SettingID: {D035CF03-FBF9-4A89-B006-0124D60F4BF3}
+
+****************************************
+
+Caption: [00000019] Microsoft Wi-Fi Direct Virtual Adapter
+Description: Microsoft Wi-Fi Direct Virtual Adapter
+DHCPEnabled: True
+Index: 19
+InterfaceIndex: 15
+IPEnabled: False
+ServiceName: vwifimp
+SettingID: {6A6BCB17-D4AF-48D2-B6E7-9D6BC07932A6}
+
+****************************************
+
+BootDevice: \Device\HarddiskVolume2
+BuildNumber: 15063
+BuildType: Multiprocessor Free
+Caption: Майкрософт Windows 10 Pro
+CodeSet: 1251
+CountryCode: 7
+CreationClassName: Win32_OperatingSystem
+CSCreationClassName: Win32_ComputerSystem
+CSName: NOTEPAD
+CurrentTimeZone: 180
+DataExecutionPrevention_32BitApplications: True
+DataExecutionPrevention_Available: True
+DataExecutionPrevention_Drivers: True
+DataExecutionPrevention_SupportPolicy: 2
+Debug: False
+Description: NotePad.by
+Distributed: False
+EncryptionLevel: 256
+ForegroundApplicationBoost: 2
+FreePhysicalMemory: 1194072
+FreeSpaceInPagingFiles: 3767824
+FreeVirtualMemory: 2120496
+InstallDate: 20170418154341.000000+180
+LastBootUpTime: 20170604230740.334082+180
+LocalDateTime: 20170607110742.378000+180
+Locale: 0419
+Manufacturer: Microsoft Corporation
+MaxNumberOfProcesses: 4294967295
+MaxProcessMemorySize: 137438953344
+MUILanguages: ru-RU
+Name: Майкрософт Windows 10 Pro|C:\WINDOWS|\Device\Harddisk0\Partition3
+NumberOfLicensedUsers: 0
+NumberOfProcesses: 211
+NumberOfUsers: 2
+OperatingSystemSKU: 48
+Organization: 
+OSArchitecture: 64-разрядная
+OSLanguage: 1049
+OSProductSuite: 256
+OSType: 18
+PortableOperatingSystem: False
+Primary: True
+ProductType: 1
+RegisteredUser: NotePad.by
+SerialNumber: 00331-20020-00000-AA303
+ServicePackMajorVersion: 0
+ServicePackMinorVersion: 0
+SizeStoredInPagingFiles: 4456448
+Status: OK
+SuiteMask: 272
+SystemDevice: \Device\HarddiskVolume3
+SystemDirectory: C:\WINDOWS\system32
+SystemDrive: C:
+TotalVirtualMemorySize: 10669336
+TotalVisibleMemorySize: 6212888
+Version: 10.0.15063
+WindowsDirectory: C:\WINDOWS
+
+****************************************
+
+Attributes: 1
+BankLabel: BANK 0
+Capacity: 4294967296
+Caption: Физическая память
+ConfiguredClockSpeed: 1600
+ConfiguredVoltage: 0
+CreationClassName: Win32_PhysicalMemory
+DataWidth: 64
+Description: Физическая память
+DeviceLocator: DIMM0
+FormFactor: 12
+InterleaveDataDepth: 1
+InterleavePosition: 1
+Manufacturer: Samsung
+MaxVoltage: 0
+MemoryType: 24
+MinVoltage: 0
+Name: Физическая память
+PartNumber: M471B5173DB0-YK0  
+SerialNumber: 1899EB2F
+SMBIOSMemoryType: 24
+Speed: 1600
+Tag: Physical Memory 0
+TotalWidth: 64
+TypeDetail: 128
+
+****************************************
+
+Attributes: 1
+BankLabel: BANK 2
+Capacity: 2147483648
+Caption: Физическая память
+ConfiguredClockSpeed: 1600
+ConfiguredVoltage: 0
+CreationClassName: Win32_PhysicalMemory
+DataWidth: 64
+Description: Физическая память
+DeviceLocator: DIMM2
+FormFactor: 12
+InterleaveDataDepth: 1
+InterleavePosition: 2
+Manufacturer: Samsung
+MaxVoltage: 0
+MemoryType: 24
+MinVoltage: 0
+Name: Физическая память
+PartNumber: M471B5674QH0-YK0  
+SerialNumber: 9603CEED
+SMBIOSMemoryType: 24
+Speed: 1600
+Tag: Physical Memory 2
+TotalWidth: 64
+TypeDetail: 128
+
+****************************************
+
+AddressWidth: 64
+Architecture: 9
+AssetTag: To Be Filled By O.E.M.
+Availability: 3
+Caption: Intel64 Family 6 Model 69 Stepping 1
+Characteristics: 252
+CpuStatus: 1
+CreationClassName: Win32_Processor
+CurrentClockSpeed: 1700
+CurrentVoltage: 7
+DataWidth: 64
+Description: Intel64 Family 6 Model 69 Stepping 1
+DeviceID: CPU0
+ExtClock: 100
+Family: 0
+L2CacheSize: 256
+L3CacheSize: 3072
+L3CacheSpeed: 0
+Level: 6
+LoadPercentage: 18
+Manufacturer: GenuineIntel
+MaxClockSpeed: 1701
+Name: Intel(R) Core(TM) i3-4005U CPU @ 1.70GHz
+NumberOfCores: 2
+NumberOfEnabledCore: 2
+NumberOfLogicalProcessors: 4
+PartNumber: To Be Filled By O.E.M.
+PowerManagementSupported: False
+ProcessorId: BFEBFBFF00040651
+ProcessorType: 3
+Revision: 17665
+Role: CPU
+SecondLevelAddressTranslationExtensions: True
+SerialNumber: To Be Filled By O.E.M.
+SocketDesignation: U3E1
+Status: OK
+StatusInfo: 3
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: NOTEPAD
+ThreadCount: 4
+UpgradeMethod: 46
+Version: 
+VirtualizationFirmwareEnabled: True
+VMMonitorModeExtensions: True
+
+****************************************
+
+AdapterCompatibility: Intel Corporation
+AdapterDACType: Internal
+AdapterRAM: 1073741824
+Availability: 3
+Caption: Intel(R) HD Graphics Family
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_VideoController
+CurrentBitsPerPixel: 32
+CurrentHorizontalResolution: 1366
+CurrentNumberOfColors: 4294967296
+CurrentNumberOfColumns: 0
+CurrentNumberOfRows: 0
+CurrentRefreshRate: 59
+CurrentScanMode: 4
+CurrentVerticalResolution: 768
+Description: Intel(R) HD Graphics Family
+DeviceID: VideoController1
+DitherType: 0
+DriverDate: 20160929000000.000000-000
+DriverVersion: 20.19.15.4531
+InfFilename: oem0.inf
+InfSection: iHSWM_w10
+InstalledDisplayDrivers: igdumdim64.dll,igd10iumd64.dll,igd10iumd64.dll,igd12umd64.dll,igdumdim32,igd10iumd32,igd10iumd32,igd12umd32
+MaxRefreshRate: 0
+Monochrome: False
+Name: Intel(R) HD Graphics Family
+PNPDeviceID: PCI\VEN_8086&DEV_0A16&SUBSYS_08661025&REV_0B\3&11583659&0&10
+Status: OK
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: NOTEPAD
+VideoArchitecture: 5
+VideoMemoryType: 2
+VideoModeDescription: Цвета: 1366 x 768 x 4294967296
+VideoProcessor: Intel(R) HD Graphics Family
+
+****************************************
+
+AdapterCompatibility: NVIDIA
+AdapterDACType: Integrated RAMDAC
+AdapterRAM: 2147483648
+Availability: 8
+Caption: NVIDIA GeForce 840M
+ConfigManagerErrorCode: 0
+ConfigManagerUserConfig: False
+CreationClassName: Win32_VideoController
+Description: NVIDIA GeForce 840M
+DeviceID: VideoController2
+DriverDate: 20161229000000.000000-000
+DriverVersion: 21.21.13.7654
+InfFilename: oem109.inf
+InfSection: Section044
+InstalledDisplayDrivers: C:\WINDOWS\System32\DriverStore\FileRepository\nvacwu.inf_amd64_31f4ef4821269ebb\nvd3dumx,C:\WINDOWS\System32\DriverStore\FileRepository\nvacwu.inf_amd64_31f4ef4821269ebb\nvwgf2umx,C:\WINDOWS\System32\DriverStore\FileRepository\nvacwu.inf_amd64_31f4ef4821269ebb\nvwgf2umx,C:\WINDOWS\System32\DriverStore\FileRepository\nvacwu.inf_amd64_31f4ef4821269ebb\nvwgf2umx,C:\WINDOWS\System32\DriverStore\FileRepository\nvacwu.inf_amd64_31f4ef4821269ebb\nvd3dum,C:\WINDOWS\System32\DriverStore\FileRepository\nvacwu.inf_amd64_31f4ef4821269ebb\nvwgf2um,C:\WINDOWS\System32\DriverStore\FileRepository\nvacwu.inf_amd64_31f4ef4821269ebb\nvwgf2um,C:\WINDOWS\System32\DriverStore\FileRepository\nvacwu.inf_amd64_31f4ef4821269ebb\nvwgf2um
+Monochrome: False
+Name: NVIDIA GeForce 840M
+PNPDeviceID: PCI\VEN_10DE&DEV_1341&SUBSYS_08671025&REV_A2\4&18189CAD&0&00E4
+Status: OK
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: NOTEPAD
+VideoArchitecture: 5
+VideoMemoryType: 2
+VideoProcessor: GeForce 840M
+
+****************************************
+
+Раздел: C:\
+  Тип Раздела: Fixed
+  Метка раздела: 
+  Файловая система: NTFS
+  Доступный размер раздела: 5,82 Gb
+  Общий размер раздела: 81,16 Gb
+Раздел: D:\
+  Тип Раздела: Fixed
+  Метка раздела: 
+  Файловая система: NTFS
+  Доступный размер раздела: 8,33 Gb
+  Общий размер раздела: 180 Gb
+Раздел: E:\
+  Тип Раздела: Fixed
+  Метка раздела: 
+  Файловая система: NTFS
+  Доступный размер раздела: 36,83 Gb
+  Общий размер раздела: 153,87 Gb
+Раздел: F:\
+  Тип Раздела: CDRom
+
+****************************************
+
+HxMail
+Calculator
+WINWORD
+ApplicationFrameHost
+SnippingTool
+Spotify
+WinStore.App
+notepad++
+chrome
+Kraida
+VK
+Steam
+ShellExperienceHost
+Skype
+TwitchUI
+SystemSettings
+Microsoft.Msn.Money
+
+****************************************
+
+Юзверь: NotePad.by. Время в системе: 59424 мин. Последний сеанс: 03.06.2017 20:05:06
+
+****************************************
+
+Время работы ПК: 2 дней, 12 часов, 0 минут, 3 секунд.
+
+****************************************
+
+Отчет создан 07.06.2017 11:07:43
